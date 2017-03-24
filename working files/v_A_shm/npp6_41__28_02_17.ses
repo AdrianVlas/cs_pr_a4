@@ -1,0 +1,13 @@
+<NotepadPlus>
+    <Session activeView="1">
+        <mainView activeIndex="2">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="846" startPos="0" endPos="0" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\LUAnd_8_1.h" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="530" startPos="0" endPos="0" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\Shematic.cpp" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="730" startPos="0" endPos="0" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\Shematic.h" />
+        </mainView>
+        <subView activeIndex="1">
+            <File firstVisibleLine="1" xOffset="0" scrollWidth="530" startPos="0" endPos="0" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\Shematic.cpp" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="730" startPos="286" endPos="286" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\Shematic.h" />
+        </subView>
+    </Session>
+</NotepadPlus>

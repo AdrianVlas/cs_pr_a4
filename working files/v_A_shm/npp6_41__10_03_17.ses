@@ -1,0 +1,29 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="7">
+            <File firstVisibleLine="829" xOffset="0" scrollWidth="980" startPos="34434" endPos="34434" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\Shematic.cpp" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="800" startPos="0" endPos="0" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\Shematic.h" />
+            <File firstVisibleLine="11" xOffset="0" scrollWidth="980" startPos="783" endPos="783" selMode="0" lang="C" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\prtTmr.c" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="980" startPos="629" endPos="642" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\prtTmr.hpp" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="980" startPos="149" endPos="149" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\prtTmr.h" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="980" startPos="121" endPos="111" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\LULed.h" />
+            <File firstVisibleLine="96" xOffset="0" scrollWidth="1070" startPos="3407" endPos="3407" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\LULed.cpp" />
+            <File firstVisibleLine="39" xOffset="0" scrollWidth="980" startPos="916" endPos="906" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\LedAuxDsc.h" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="980" startPos="175" endPos="155" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\LuGenOp.h" />
+            <File firstVisibleLine="108" xOffset="0" scrollWidth="800" startPos="2841" endPos="2841" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\LULedp1.cpp" />
+        </mainView>
+        <subView activeIndex="7">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1080" startPos="335" endPos="317" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\Shematic.cpp" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1080" startPos="478" endPos="267" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\Shematic.h" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="980" startPos="42" endPos="42" selMode="0" lang="C" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\src\protections.c">
+                <Mark line="485" />
+            </File>
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="980" startPos="443" endPos="443" selMode="0" lang="C" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\prtTmr.c" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1" startPos="0" endPos="0" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\ledIstng.h" />
+            <File firstVisibleLine="25" xOffset="0" scrollWidth="1080" startPos="1949" endPos="1949" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\LULed.cpp" />
+            <File firstVisibleLine="4" xOffset="0" scrollWidth="1080" startPos="416" endPos="432" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\LULed.h" />
+            <File firstVisibleLine="77" xOffset="0" scrollWidth="1080" startPos="2390" endPos="2390" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\LedAuxDsc.h" />
+            <File firstVisibleLine="72" xOffset="0" scrollWidth="670" startPos="1928" endPos="1928" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\LULedp1.cpp" />
+        </subView>
+    </Session>
+</NotepadPlus>

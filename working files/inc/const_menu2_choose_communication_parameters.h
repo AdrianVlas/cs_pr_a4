@@ -1,0 +1,40 @@
+#ifndef __CONST_CHOOSE_COMMUNICATION_PARAMETERS_MENU2__
+#define __CONST_CHOOSE_COMMUNICATION_PARAMETERS_MENU2__
+
+enum __index_choose_comunication_parameters
+{
+  INDEX_CHCP_M2_NAME = 0,
+  INDEX_CHCP_M2_ADDRESS,
+  INDEX_CHCP_M2_SETTING_RS485,
+  
+  MAX_ROW_CHCP_M2
+};
+
+#define MAX_ROW_FOR_VIEW_NAME_OF_CELL                (MAX_CHAR_IN_NAME_OF_CELL >> POWER_MAX_COL_LCD)
+
+#define MAX_ROW_ADDRESS_M2              1
+
+#define COL_ADDRESS_BEGIN                6
+#define COL_ADDRESS_END                  8
+
+enum __index_choose_settings_RS485
+{
+  INDEX_SETTING_RS485_M2_BAUD = 0,
+  INDEX_SETTING_RS485_M2_PARE,
+  INDEX_SETTING_RS485_M2_STOP,
+  INDEX_SETTING_RS485_M2_TIMEOUT,
+  
+  MAX_ROW_SETTING_RS485_M2
+};
+
+#define MAX_ROW_FOR_VIEW_BAUD_RS485                     1
+#define MAX_ROW_FOR_VIEW_PARE_RS485                     1
+#define MAX_ROW_FOR_VIEW_STOP_BITS_RS485                1
+#define MAX_ROW_FOR_VIEW_TIMEOUT_RS485                  1
+
+
+#define COL_TIMEOUT_RS485_BEGIN    3
+#define COL_TIMEOUT_RS485_COMMA    5
+#define COL_TIMEOUT_RS485_END      6
+
+#endif

@@ -1,0 +1,170 @@
+#ifndef LED_OUT_OP_DEFS_h
+#define LED_OUT_OP_DEFS_h
+
+/*
+enum ID_LU_GEN_OP { 
+
+LU_GEN_OP_AND  = 1,  
+LU_GEN_OP_OR    ,  
+LU_GEN_OP_XOR   ,
+LU_GEN_OP_NOT,
+LU_GEN_OP_RS_TRIGGER,
+LU_GEN_OP_D_TRIGGER_TYPE3,
+LU_GEN_OP_D_TRIGGER,
+LU_GEN_OP_EV_FIX_IBUS
+};
+*/
+enum LED_ORDER_NUMS{
+LED_01,
+LED_02,
+LED_03,
+LED_04,
+LED_05,
+LED_06,
+LED_07,
+LED_08,
+LED_09,
+LED_10,
+LED_11,
+LED_12,
+LED_13,
+LED_14,
+LED_15,
+LED_16,
+LED_17,
+LED_18,
+LED_19,
+LED_20,
+LED_21,
+LED_22,//
+ERROR ,// = ,
+RUN   ,// = ,
+ALARM ,// = ,
+MUTE  ,  
+TOTAL_LEDS //= MUTE
+};
+enum HL_NAMES{
+HL01 = LED_02,//LED_01,
+HL02 = LED_03,//LED_02,
+HL03 = LED_04,//LED_03,
+HL04 = LED_06,//LED_04,
+HL05 = LED_07,//LED_05,
+HL06 = LED_08,//LED_06,
+HL07 = LED_10,//LED_07,
+HL08 = LED_11,//LED_08,
+HL09 = LED_12,//LED_09,
+HL10 = LED_14,//LED_10,
+HL11 = LED_15,//LED_11,
+HL12 = LED_16,//LED_12,
+HL13 = LED_18,//LED_13,
+HL14 = LED_19,//LED_14,
+HL15_RED   = ERROR,//LED_15,
+HL15_GREEN = RUN,  //LED_15,
+HL16 = LED_21,//LED_16,
+HL17 = LED_22,//LED_17,
+HL18_RED   = ALARM,//LED_18,
+HL18_GREEN = MUTE ,//LED_18,
+HL19 = LED_09,//LED_19
+HL20 = LED_13, 
+HL21 = LED_01, 
+HL22 = LED_05, 
+HL23 = LED_17,
+HL24 = LED_20
+
+};
+enum HL_ROWS_SELECTION_NUM{
+   HL_RA = 1, 
+   HL_RB, 
+   HL_RC, 
+   HL_RD,
+   LEDS_TOTAL_ROWS = HL_RD
+};
+enum HL_COLUMNS_SELECTION_NUM{
+   HL_C1, 
+   HL_C2, 
+   HL_C3, 
+   HL_C4,
+   HL_C5, 
+   HL_C6, 
+   HL_C7, 
+   HL_C8,
+LEDS_TOTAL_COLUMNS //= HL_C8+1  
+};
+typedef struct LedDscRecord_t{
+    char hl_name;
+    char row;
+    char column;
+}LedRegCode;
+
+//const char HLSelectorTable[TOTAL_LEDS][LEDS_TOTAL_ROWS][LEDS_TOTAL_COLUMNS] = {
+const LedRegCode HLSelectorTable[TOTAL_LEDS] = {
+HL21,HL_RA,HL_C1,//LED_01,
+HL01,HL_RB,HL_C1,//LED_02,
+HL02,HL_RC,HL_C1,//LED_03,
+HL03,HL_RD,HL_C1,//LED_04,
+HL22,HL_RA,HL_C2,//LED_05,
+HL04,HL_RB,HL_C2,//LED_06,
+HL05,HL_RC,HL_C2,//LED_07,
+HL06,HL_RD,HL_C2,//LED_08,
+HL19,HL_RA,HL_C3,//LED_09,
+HL07,HL_RB,HL_C3,//LED_10,
+HL08,HL_RC,HL_C3,//LED_11,
+HL09,HL_RD,HL_C3,//LED_12,
+HL20,HL_RA,HL_C4,//LED_13,
+HL10,HL_RB,HL_C4,//LED_14,
+HL11,HL_RC,HL_C4,//LED_15,
+HL12,HL_RD,HL_C4,//LED_16,
+HL23,HL_RA,HL_C5,//LED_17,
+HL13,HL_RB,HL_C5,//LED_18,
+HL14,HL_RC,HL_C5,//LED_19,
+HL24,HL_RA,HL_C6,
+HL16,HL_RB,HL_C6,//LED_21,
+HL17,HL_RC,HL_C6,//LED_22,//
+HL15_RED  ,HL_RC,HL_C7,//ERROR ,// = 23,
+HL15_GREEN,HL_RD,HL_C7,//RUN   ,// = 24,
+HL18_RED  ,HL_RB,HL_C8,//ALARM ,// = 25,
+HL18_GREEN,HL_RD,HL_C8//MUTE  ,// = 26 
+//TOTAL_LEDS //=26 
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#endif

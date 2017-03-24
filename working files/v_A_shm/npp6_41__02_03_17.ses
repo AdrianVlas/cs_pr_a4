@@ -1,0 +1,18 @@
+<NotepadPlus>
+    <Session activeView="1">
+        <mainView activeIndex="1">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="846" startPos="0" endPos="0" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\LUAnd_8_1.h" />
+            <File firstVisibleLine="824" xOffset="0" scrollWidth="1330" startPos="0" endPos="0" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\Shematic.cpp" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="730" startPos="0" endPos="0" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\Shematic.h" />
+        </mainView>
+        <subView activeIndex="2">
+            <File firstVisibleLine="434" xOffset="0" scrollWidth="2690" startPos="0" endPos="0" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\Shematic.cpp" />
+            <File firstVisibleLine="52" xOffset="0" scrollWidth="1330" startPos="2240" endPos="2240" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\Shematic.h" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="2690" startPos="1438" endPos="1438" selMode="0" lang="C" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\I_Shm.c" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="2690" startPos="0" endPos="0" selMode="0" lang="C++" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\v_A_shm\I_Shm.h" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="2690" startPos="42" endPos="42" selMode="0" lang="C" encoding="-1" filename="G:\emb_pj\CS_Demo\demo3\cs_24_02_17\working files\src\protections.c">
+                <Mark line="485" />
+            </File>
+        </subView>
+    </Session>
+</NotepadPlus>

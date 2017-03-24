@@ -1,0 +1,97 @@
+#ifndef LU_BGS_SCHM_DSC_h
+#define LU_BGS_SCHM_DSC_h
+
+#include "LuGenOp.h"
+
+enum BGS_INPUT_NAMES{
+BGS_IN_NAME__ANALOG_IN = 1,
+
+TOTAL_BGS_VISIO_IN = 1
+};
+
+//.NNP (New Number Plus)
+//.NNM (New Number Minus)
+//.CC (Closed Circuit)
+//.OC (OverCurrent)
+//.CE (Check Error)
+//.NNC (New Number of Circuit
+
+enum BGS_OUTPUT_NAMES{
+BGS_OUT_NAME__BGS_STATE_OUTPUT = 1,
+BGS_OUT_NAME_NNP,
+BGS_OUT_NAME_NNM,
+BGS_OUT_NAME_CC ,
+BGS_OUT_NAME_OC ,
+BGS_OUT_NAME_CE ,
+TOTAL_BGS_VISNNCIO_OUT = BGS_OUT_NAME_CE
+};
+
+////////////////////////////////////////////////////////////// 
+enum BGS_SCHEMATIC_LU_ORDER_NUMS{
+EvalDeltaIbus_1,
+StoreIfixTimeFix_1,
+D_TRG_03__3_2,
+TIMER_04_1_1,
+OR_05__2_1,
+And06__2_1,
+Not07__1_1,
+EvalDeltaIbusFix_3_1,
+TDELAY_1_1,
+Not10__1_1,
+And11__2_1,
+And12__2_1,
+And13__2_1,
+And14__2_1,
+EvalNNC_NCH_1,
+EvalNNP_NCH_1,
+EvalNNC_CH_1 ,
+EvalNNP_CH_1 ,
+EvalCE_1,
+EvalOC_1,
+EvalIptp_1, 
+EvalIctc_1,
+MUX21_3_1,
+MUX22_3_1,
+EvalNNP_1,
+EvalNNM_1,
+EvalNCC_1,
+
+TOTAL_BGS_LU = EvalNCC_1 ,
+BGS_VCC,
+BGS_GRND,
+IN_BGS_MNU_STATE_CHECK_BGS_SELECTOR
+
+};
+enum BGS_ORDER_NUM_OFFSET_OUTS{
+OFFSET_OUT_EvalDeltaIbus_1,
+OFFSET_OUT_StoreIfixTimeFix_1,
+OFFSET_OUT_D_TRG_03__3_2,
+OFFSET_OUT_TIMER_04_1_1 = OFFSET_OUT_D_TRG_03__3_2 + 2,
+OFFSET_OUT_OR_05__2_1,
+OFFSET_OUT_And06__2_1,
+OFFSET_OUT_Not07__1_1,
+OFFSET_OUT_EvalDeltaIbusFix_3_1,
+OFFSET_OUT_TDELAY_1_1,
+OFFSET_OUT_Not10__1_1,
+OFFSET_OUT_And11__2_1,
+OFFSET_OUT_And12__2_1,
+OFFSET_OUT_And13__2_1,
+OFFSET_OUT_And14__2_1,
+OFFSET_OUT_EvalNNC_NCH_1,
+OFFSET_OUT_EvalNNP_NCH_1,
+OFFSET_OUT_EvalNNC_CH_1 ,
+OFFSET_OUT_EvalNNP_CH_1 ,
+OFFSET_OUT_EvalCE_1,
+OFFSET_OUT_EvalOC_1,
+OFFSET_OUT_EvalIptp_1, 
+OFFSET_OUT_EvalIctc_1,
+OFFSET_OUT_MUX21_3_1,
+OFFSET_OUT_MUX22_3_1,
+OFFSET_OUT_EvalNNP_1,
+OFFSET_OUT_EvalNNM_1,
+OFFSET_OUT_EvalNCC_1,
+TOTAL_BGS_LU_CALC_POINT = OFFSET_OUT_EvalNCC_1+1
+};
+
+#endif
+
